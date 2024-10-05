@@ -1,0 +1,153 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.icons{
+    color:#009688;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+.logo {
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 1.2em;
+    color: #009688; 
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 10px;
+    text-decoration: none;
+
+
+}
+
+.flick {
+    font-weight: bold; /* Make "Flick" bold */
+}
+
+.net {
+    font-weight: bold; /* "Net" in regular weight */
+}.pinning-header .main-header .logo {
+    color: #e50914;
+}
+.heart-icon {
+    font-size: 24px;
+    color: #009688;
+    cursor: pointer;
+  }
+  
+  .heart-icon.red {
+    color: red;
+  }
+  .home {
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/bfc0fc46-24f6-4d70-85b3-7799315c01dd/web/TN-fr-20240923-TRIFECTA-perspective_9231d7c5-c9bb-42a4-a011-827df8afee81_medium.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh; 
+    width: 100vw; 
+    background-repeat: no-repeat;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    overflow: auto;
+    margin: 0;
+}
+
+  .icons1{
+    color:#009688;
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+    margin-top: 4px;
+}
+.logo1 {
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 2em;
+    color: #009688; 
+    display: flex;
+    cursor: pointer;
+    margin-left: 10px;
+    text-decoration: none;
+   
+    
+}
+@media screen and (min-width: 600px) {
+    .default-ltr-cache-1osrymp {
+        min-height: 650px;
+        padding: 48px 68px;
+    }
+}
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .nav1 {
+    width: 100%;
+    padding: 20px;
+    color:#009688;
+    margin-top: 130px;
+  }
+  
+  .icons1 {
+    height: 40px;
+    margin-right: 10px;
+  }
+
+  .default-ltr-cache-1osrymp {
+    background-color:rgb(15, 15, 15);
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 300px;
+  }
+  .default-ltr-cache-z5atxi,
+  .default-ltr-cache-1qtmpa {
+    margin-bottom: 20px;
+  }
+  
+  .label1 {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  .input1 {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    font-size: 14px;
+    box-sizing: border-box;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  .recaptcha-terms-of-use {
+    margin-top: 8px;
+    font-size: 12px;
+    color: #555;
+  }
+  .errorPage{
+    background-image: url("https://img.freepik.com/free-photo/beautiful-tropical-beach-with-full-moon-night-skies_23-2148282844.jpg?t=st=1727904589~exp=1727908189~hmac=c5ec92af7c3ae6a521335cec8db697beb179373a5f4dc9e5b5fb8f64aba50595&w=360");
+    background-position: center;
+    background-size: cover;
+    height: 100vh; 
+    width: 100vw; 
+    background-repeat: no-repeat;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    overflow: auto;
+  }
+
+  
+ 
+  
+ 
